@@ -26,3 +26,32 @@ print(thisdosen)
 #sks nya berubah menjadi 14 sks
 
 #tuple meyimpan elemen dengan cara berurutan sedangkan set tidak
+
+mahasiswa = {
+"M001": {"nama": "Rina", "prodi": "Informatika", "ipk":
+3.60},
+"M002": {"nama": "Doni", "prodi": "Sistem Informasi",
+"ipk": 3.25},
+"M003": {"nama": "Lina", "prodi": "Informatika", "ipk":
+3.80}
+}
+
+for mahasiswa in mahasiswa:
+    if mahasiswa["prodi"] == "Informatika" and mahasiswa["ipk"] >= 3.5:
+        print(mahasiswa["nama"])
+
+
+
+
+
+mahasiswa ={
+    "nim":"m004",
+    "nama":"unibakwan",
+    "prodi":"teknik informatika",
+    "ipk":3.75
+
+
+
+
+}
+print(mahasiswa)
